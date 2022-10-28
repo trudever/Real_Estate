@@ -8,6 +8,6 @@ Real Estate site
  * React js
  * Tailwind css
  * TypeScript 
- * sanity CMS
- * firebase
+ * Sanity CMS
+ * Firebase
  
