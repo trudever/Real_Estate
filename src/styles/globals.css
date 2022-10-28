@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  *{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+  }
+}
+
+@layer components {
+  .footer-section {
+    @apply flex flex-col space-y-4;
+  }
+  .input-wrapper {
+    @apply flex flex-col space-y-1 w-full;
+  }
+
+  .input-wrapper input,
+  textarea {
+    @apply outline-none border border-[#D3DEE8] rounded-[2px] p-2 w-full;
+  }
+  .input-wrapper label {
+    @apply text-lg text-gray-primary;
+  }
+  .input-wrapper input::placeholder {
+    @apply text-[#7B7B7B]/75 text-base;
+  }
+  .input-wrapper.contact-form input,
+  textarea {
+    @apply outline-none border border-[#D3DEE8] rounded-[2px] p-2 w-full;
+  }
+  .input-wrapper.contact-form label {
+    @apply text-base text-gray-primary;
+  }
+  .input-wrapper.contact-form input::placeholder {
+    @apply text-[#7B7B7B]/75 text-sm;
+  }
+  .login-with-button {
+    @apply text-white py-3 w-full rounded-[2px] px-12;
+  }
+  .submit-button {
+    @apply text-center w-full py-2 text-white bg-primary-light text-lg rounded-[2px];
+  }
+  .auth-form {
+    box-shadow: 0px 10px 30px rgba(0, 115, 225, 0.06);
+  }
+  .card {
+    box-shadow: 0px 10px 30px rgba(0, 115, 225, 0.06);
+  }
+  .quote-container {
+    transform: rotate(-30deg);
+  }
+  .quote-icon {
+    transform: rotate(30deg);
+  }
+  .agencyCard {
+    display: flex;
+    padding: 16px;
+    border: 1px solid #d3dee8;
+    box-shadow: 0px 10px 30px rgba(0, 115, 225, 0.06);
+    border-radius: 4px;
+  }
+  .mission-vision {
+    background: #ffffff;
+    border: 1px solid #d3dee8;
+    box-shadow: 0px 10px 20px rgba(0, 115, 225, 0.1);
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.2",
+    "@heroicons/react": "^2.0.11",
+    "@mui/material": "^5.10.10",
+    "@sanity/client": "^3.4.1",
+    "firebase": "^9.10.0",
+    "next": "latest",
+    "next-mdx-remote": "^4.1.0",
+    "next-sanity-image": "^4.1.0",
+    "nprogress": "^0.2.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.38.0",
+    "react-icons": "^4.4.0",
+    "react-toastify": "^9.0.8",
+    "recoil": "^0.7.5",
+    "tailwind-scrollbar-hide": "^1.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.35",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.5",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.26.0",
+    "eslint-config-next": "12.3.1",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
+    "typescript": "4.7.2"
+  }
+}
